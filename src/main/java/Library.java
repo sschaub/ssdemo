@@ -6,6 +6,10 @@
  */
 public class Library {
     public boolean someLibraryMethod() {
+        boolean foo = true;
+        if (!foo) {
+          foo = false;
+        }
         return true;
     }
 }
