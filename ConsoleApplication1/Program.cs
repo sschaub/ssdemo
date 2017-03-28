@@ -10,5 +10,9 @@ namespace ConsoleApplication1
             // Hello, wonderful you!
             Console.WriteLine("Will it blend?");
         }
+        
+        static void Harmless()
+        {
+        }
     }
 }
