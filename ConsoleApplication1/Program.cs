@@ -8,6 +8,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             // Hello, wonderful you!
+            Console.WriteLine("Will it blend?");
         }
     }
 }
