@@ -10,7 +10,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            // Hello, here!
+            // Hello, there!
         }
     }
 }
