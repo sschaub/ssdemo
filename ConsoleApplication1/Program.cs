@@ -9,5 +9,9 @@ namespace ConsoleApplication1
         {
             // Hello, wonderful you!
         }
+        
+        static void Harmless()
+        {
+        }
     }
 }
