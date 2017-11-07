@@ -11,8 +11,12 @@ namespace ConsoleApplication1
             Console.WriteLine("Will it swirl?");
         }
         
-        static void Harmless()
+        static int Harmless(int x)
         {
+            return x * 2;
         }
+                
     }
+    
+    
 }
