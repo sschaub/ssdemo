@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         
         static int Harmless(int x)
         {
-            return x * 2;
+            return x / 2;
         }
                 
     }
