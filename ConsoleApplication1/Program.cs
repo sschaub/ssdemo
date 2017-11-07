@@ -7,7 +7,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            // Hello, wonderful yyy
+            // Hello, wonderful me
             Console.WriteLine("Will it swirl?");
         }
         
