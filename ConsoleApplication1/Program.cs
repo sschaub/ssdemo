@@ -7,6 +7,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            string name;
             Console.WriteLine("Will it swirl?");
         }
         
