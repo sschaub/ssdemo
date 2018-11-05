@@ -7,8 +7,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            string namey; // a comment
-            Console.WriteLine("Will it swirl?");
+            string name;
         }
         
         static int Harmless(int x)
