@@ -7,6 +7,7 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            // Here is a name variable
             string name;
         }
         
