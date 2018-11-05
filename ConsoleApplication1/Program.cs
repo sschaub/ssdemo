@@ -8,7 +8,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             // Here is a name variable
-            string name;
+            string thename;
         }
         
         static int Harmless(int x)
