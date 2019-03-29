@@ -15,6 +15,10 @@ namespace ConsoleApplication1
         {
             return x + 2 - 7;
         }
+        
+        static void BlastOff()
+        {
+        
                 
     }
     
