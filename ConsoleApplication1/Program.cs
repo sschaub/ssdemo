@@ -16,6 +16,7 @@ namespace ConsoleApplication1
             return x + 2 - 7;
         }
         
+        // Causes the user's ship to blast off
         static void BlastOff()
         {
         
