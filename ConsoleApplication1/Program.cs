@@ -11,7 +11,7 @@ namespace ConsoleApplication1
             string myLocalName;
         }
         
-        static int Harmless(int x)
+        static int Harmful(int x)
         {
             return x + 2 - 7;
         }
