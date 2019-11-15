@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         
         static int Harmless(int x)
         {
-            return x + 2 - 7;
+            return x + 2 - 5;
         }
         
         // Causes the user's ship to blast off
