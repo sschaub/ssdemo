@@ -3,8 +3,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 
-// The main window.
-// Comment here
+// The main window
+
 public class MainWindow {
 
     @FXML
