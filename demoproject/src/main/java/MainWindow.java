@@ -3,7 +3,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 
-// The main window.
+// The main window is here.
 
 public class MainWindow {
 
