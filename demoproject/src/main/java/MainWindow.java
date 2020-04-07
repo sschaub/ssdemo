@@ -4,7 +4,7 @@ import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 
 // The main window.
-// Comment there
+// Comment everywhere
 public class MainWindow {
 
     @FXML
