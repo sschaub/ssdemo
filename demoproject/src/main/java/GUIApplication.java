@@ -11,7 +11,9 @@ public class GUIApplication extends Application{
     public void start(Stage stage) throws Exception {
         var loader = new FXMLLoader(getClass().getResource("MainWindow.fxml"));
         var scene = new Scene(loader.load());
+        String s = "Foo";
 
+        
         stage.setScene(scene);
         stage.setTitle("Hello"); // Title of main window
         stage.show();
