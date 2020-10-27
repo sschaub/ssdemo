@@ -9,7 +9,7 @@ public class MainWindow {
 
     @FXML
     void onGreetClicked(ActionEvent event) {
-        var alert = new Alert(AlertType.INFORMATION, "Goodbye, everyone.");
+        var alert = new Alert(AlertType.INFORMATION, "Hello, everyone.");
         alert.setHeaderText(null);
         alert.show();
 
