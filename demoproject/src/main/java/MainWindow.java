@@ -6,6 +6,8 @@ import javafx.scene.control.Alert.AlertType;
 // The main window.
 
 public class MainWindow {
+    
+    int count = 0;
 
     @FXML
     void onGreetClicked(ActionEvent event) {
