@@ -1,4 +1,4 @@
-name: Build, Test & Deploy
+name: Test Submission
 # This workflow is triggered on pushes to the repository.
 on: [push]
 
@@ -14,3 +14,9 @@ jobs:
         with:
           path: submission
       - run: bash runtest.sh
+      - name: Push log report
+        uses: ad-m/github-push-action@master
+        if: success()
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          
