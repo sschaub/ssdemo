@@ -10,5 +10,6 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/checkout@v2
         with:
-          repository: bjucps250/cps250-tests   
-      - run: bash demo.sh
+          repository: bjucps250/cps250-tests
+          path: 250tests 
+      - run: bash 250tests/demo.sh
