@@ -10,10 +10,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           repository: bjucps250/cps250-tests
+          path: tests
       - uses: actions/checkout@v2
         with:
           path: submission
-      - run: bash runtest.sh
+      - run: cd tests && bash runtest.sh
       # - name: Push log report
       #   uses: ad-m/github-push-action@master
       #   if: success()
