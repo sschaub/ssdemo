@@ -9,7 +9,7 @@ jobs:
       uses: actions/checkout@v2
     - name: Hello world action step
       id: hello
-      uses: ./mydockeraction
+      uses: sschaub/ghaction-demo
       with:
         who-to-greet: 'Mona the Octocat'
     # Use the output from the `hello` step
