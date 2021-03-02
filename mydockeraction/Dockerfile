@@ -1,5 +1,9 @@
 # Container image that runs your code
-FROM alpine:3.10
+FROM ubuntu:18.04 
+RUN apt-get update && apt-get install -y curl unzip python3 build-essential libbsd-dev valgrind \
+    && apt-get clean
+
+
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
