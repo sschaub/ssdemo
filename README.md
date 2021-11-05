@@ -11,7 +11,5 @@ Category | Test | Result
 No tests for ssdemo submissions...
 ```
 
-Here is my change
 
-Here is another change
 
