@@ -9,6 +9,8 @@ public class MainWindow {
     
     int count = 1;  // Initialize count
 
+    int weight = 36;
+
     @FXML
     void onGreetClicked(ActionEvent event) {
         var alert = new Alert(AlertType.INFORMATION, "Hello, everyone.");
