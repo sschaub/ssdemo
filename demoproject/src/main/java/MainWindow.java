@@ -9,7 +9,7 @@ public class MainWindow {
     
     int count = 1;  // Initialize count
 
-    int weight = 36;
+    int turkeyWeight = 36;
 
     @FXML
     void onGreetClicked(ActionEvent event) {
