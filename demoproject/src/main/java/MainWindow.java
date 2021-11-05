@@ -9,7 +9,7 @@ public class MainWindow {
     
     int count = 1;  // Initialize count
 
-    int turkeyWeight = 36; // increment each time we buy a new turkey
+    int turkeyWeight = 36; // increment every time we buy a new turkey
 
     @FXML
     void onGreetClicked(ActionEvent event) {
