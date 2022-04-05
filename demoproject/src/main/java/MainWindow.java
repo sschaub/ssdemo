@@ -7,7 +7,7 @@ import javafx.scene.control.Alert.AlertType;
 // Change from developer in the cloud
 public class MainWindow {
     
-    int count = 2;  // Initialize count
+    int count = 1;  // Initialize count
 
     int turkeyWeight = 36; // increment every time we buy a new turkey
 
