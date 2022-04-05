@@ -4,7 +4,6 @@ import javafx.scene.control.*;
 import javafx.scene.control.Alert.AlertType;
 
 // The main window.
-// Change from developer in the cloud
 public class MainWindow {
     
     int count = 1;  // Initialize count
